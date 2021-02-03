@@ -8,6 +8,6 @@ var ComentariosController = require("../controllers/ComentariosController");
 //routerCometarios.get("/:id", ComentariosController.getOne);
 //routerCometarios.delete("/:id", ComentariosController.delete);
 routerCometarios.get("/", ComentariosController.getAll);
-//routerCometarios.post("/", ComentariosController.create);
+routerCometarios.post("/", ComentariosController.create);
 
 module.exports = routerCometarios;

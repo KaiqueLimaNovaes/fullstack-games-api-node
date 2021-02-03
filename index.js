@@ -18,5 +18,5 @@ app.use("/produto", routerProduto);
 app.use("/comentarios", routerComentarios);
 
 app.listen(3005, () => {
-  console.log("Servidor rodando");
+  console.log("Servidor rodando porta 3005");
 });
